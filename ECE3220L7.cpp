@@ -367,7 +367,7 @@ int main(int argc, char** argv) {
 	}
 
 	LabFunction function3("Raw_data_01.txt");
-	cout<<"HERE"<<endl;
+	cout<<"----------------------------------------------------------------"<<endl;
 	LabFunction function2("Raw_data_01.txt");
 	LabFunction function4 = operator+(function2,function3);
 	function4.Sig_info();
